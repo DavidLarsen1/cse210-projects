@@ -1,0 +1,8 @@
+In Foundation 2 program
+ I've applied the encapsulation principle by designing distinct classes for Product, Order, Customer, and Address. Each class manages its own data and operations independently, shielding internal complexities from other parts of the system.
+
+The Product class centralizes product attributes like name, ID, price, and quantity, offering a streamlined approach to handling product-related data. Meanwhile, the Order class embodies the essence of an order, encompassing product listings and customer information, facilitating seamless computation of total costs and shipping fees.
+
+Customer details, such as name and address, are securely stored and manipulated within the Customer class, ensuring controlled access and manipulation of sensitive data. Additionally, the Address class specializes in handling address specifics, facilitating the creation of complete address strings and verifying USA-based addresses.
+
+By implementing encapsulation, the codebase gains significant enhancements in organization, data security, and modularization. This approach fosters code maintainability and reusability, contributing to a robust and adaptable system architecture.
